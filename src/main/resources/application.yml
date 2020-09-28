@@ -1,0 +1,19 @@
+
+server:
+  port: 8081
+
+#spring:
+#  profiles:
+#    active: dev
+
+#spring:
+#  profiles:
+#    active: prod
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+spring:
+  profiles: prod
