@@ -32,6 +32,7 @@ server:
 spring:
   profiles: dev
 ---
+server:
+  port: 8083
 spring:
   profiles: prod
-
