@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-//@MapperScan({"com.lssf.hotel_room_management_system.modules.user.mapper"})
+@MapperScan({"com.lssf.hotel_room_management_system.modules.user.mapper"})
 public class HotelRoomManagementSystemApplication {
 
     public static void main(String[] args) {
