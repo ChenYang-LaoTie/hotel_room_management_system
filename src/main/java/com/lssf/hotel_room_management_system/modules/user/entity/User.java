@@ -2,18 +2,17 @@ package com.lssf.hotel_room_management_system.modules.user.entity;
 
 public class User {
 
-    Integer userId;
+    String userId;
     String userUsername;
     String userPassword;
     String userPhone;
     String userEmail;
 
-
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -52,7 +51,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "userId=" + userId +
+                "userId='" + userId + '\'' +
                 ", userUsername='" + userUsername + '\'' +
                 ", userPassword='" + userPassword + '\'' +
                 ", userPhone='" + userPhone + '\'' +
